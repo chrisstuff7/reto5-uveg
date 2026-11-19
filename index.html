@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 5 - Lector de Noticias</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-header">
+            <h1>El Pachuqueño Informante</h1>
+            <p class="subtitulo">Informando lo que pasa, incluso cuando no pasa nada</p>
+            <button type="button" id="btn-refrescar">Actualizar noticias</button>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div id="estado-mensaje" class="estado-mensaje"></div>
+
+        <section id="contenedor-noticias" class="grid-noticias"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
